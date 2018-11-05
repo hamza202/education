@@ -2286,4 +2286,25 @@ max-width: 220px;
  .footerr-logo img {
   position: static;
  }
+ .mega-menu *{
+  text-align: right;
+ }
+ .mega-menu .menu-links > li > a.button{
+  margin:7px 0 ;
+ }
 }
+@media (min-width: 992px) {
+.mega-menu .menu-links > li > a.button{
+ margin-right: 20px;
+ display: inline;
+}
+}
+.mega-menu .menu-links > li > a.button:hover{
+ color: #fff;
+}
+.mega-menu .menu-links > li > a.button{
+ padding: 4px 15px;
+ font-family: 'Changa', sans-serif !important;
+ letter-spacing: 0;
+}
+
